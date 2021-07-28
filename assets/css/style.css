@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2{
+    text-transform: uppercase;
+}
+.button{
+    text-transform: uppercase;
+    background-color: #93AD2D;
+}
+.primary-color{
+    color: #96AF31;
+}
+.secondary-color{
+    color: #363958;
+}
+.navbar .brand-name{
+    font-weight: 700;
+}
+.navbar ul li{
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+/* Banner Section Style  */
+.banner-content h1{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: bold;
+    font-family: Bebas Neue;
+}
+
+/* Jacket Section  */
+.cat-header h2{
+    font-size: 48px;
+    font-family: Bebas Neue;
+    line-height: 48px;
+}
+.product-item{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px #f1f1f1;
+}
+.product-item:hover{
+    transform: translateY(-10px);
+    transition: .5s;
+    box-shadow: 1px 1px 10px 5px #f1f1f1;
+}
+.card{
+    padding: 20px;
+}
+.card img{
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card h4{
+    font-size: 24px;
+    line-height: 28.13px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.product-item h2{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: Roboto;
+}
+@media (max-width:540px) {
+    .product-item{
+        margin-bottom: 20px;
+    }
+}
