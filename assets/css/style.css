@@ -62,7 +62,7 @@ p{
 /* Navigation Style  End*/
 
 /* Categories Products Section  */
-.categories{
+.categories,.service{
     margin: 25px 0 50px 0;
 }
 .item{
@@ -81,6 +81,11 @@ p{
     transition: 0.5s;
 }
 
+
+/* .service img{
+    width: 72px;
+    height: 82px;
+} */
 
 
 
@@ -102,6 +107,9 @@ p{
     }
     .banner-content h1{
         font-size: 46px;
+    }
+    .service-photo{
+        margin: 20px 0;
     }
 }
 @media (max-width:769px){
